@@ -56,4 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'griddler', github: 'thoughtbot/griddler'
-gem 'griddler-sendgrid', github: 'thoughtbot/griddler-sendgrid'
+#gem 'griddler-sendgrid', github: 'thoughtbot/griddler-sendgrid'
+
+gem 'griddler-cloudmailin'

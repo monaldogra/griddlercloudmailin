@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/thoughtbot/griddler-sendgrid.git
-  revision: 63cff8a63741a4eaebe825eab98595b9349b85ad
-  specs:
-    griddler-sendgrid (1.0.1)
-      griddler
-
-GIT
   remote: https://github.com/thoughtbot/griddler.git
   revision: 75ab4ef7ad61834156c72d79db17ab086f2fcad3
   specs:
@@ -82,6 +75,8 @@ GEM
     ffi (1.9.18)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    griddler-cloudmailin (1.1.0)
+      griddler
     htmlentities (4.3.4)
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
@@ -200,7 +195,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   griddler!
-  griddler-sendgrid!
+  griddler-cloudmailin
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
