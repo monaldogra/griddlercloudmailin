@@ -13,6 +13,10 @@ class EmailProcessor
 
   def process
 
+
+   puts "bindinggggggggggggggggggggggggggggggggggggg"
+   puts @email
+
    # all of your application-specific code here - creating models,
    # processing reports, etc
 
